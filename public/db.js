@@ -1,6 +1,6 @@
 let db;
 
-const request = indexedDB.open("budget", 1);
+const request = indexedDB.open("budgetdb", 1);
 
 //create Schema
 request.onupgradeneeded = function (event) {
